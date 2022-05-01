@@ -120,4 +120,4 @@ ends with that soecified substring
 and it returns an array if there is a match
 
     There is a way to convert a data type into another. 
-It's parseInt() - Number() - parseFloat() - str() 
+It's parseInt() - Number() - parseFloat() - str() - +num 
