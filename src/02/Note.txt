@@ -1,0 +1,123 @@
+Element:
+    HTML and CSS code found here
+
+Console:
+    You can write JS code here and you see JS output here.
+
+Sources:
+    Source File you can create snippet code.
+
+Network:
+    HTTP Resquest Response cycle found here and anything related to network.
+
+Application:
+    Browser applications (storage, cache)
+
+========================================================================================
+
+Day 2:
+    * primitive dat types
+    * Non-primitive data (Object Reference)
+
+* Primitive data types include
+    - Numbers
+    - Strings 
+    - Booleans
+    - Null
+    - Undefined
+
+* Non-primitive data types include:
+    - Objects
+    - Functions
+    - Array
+
+* Strings are not modifiable or in other words immutable
+
+* Non-pirmitive data types cannot be compared by value.
+    - Echo 
+
+* JavaScript math object provides a lot of methods 
+    - Math.PI => 3.14
+    - Math-round(PI)
+    - Math.floor() => Rounding down
+    - Math.ceil => Rounding up 
+    - Math.min()
+    - Math.max() 
+
+* Math.random() => creates a random number between 0 to .999
+* Math.floor(Math.randowm() * 11) => creates a number between 0 to 10
+
+
+//Absolute value
+console.log(Math.abs(-10))      // 10
+
+//Square root
+console.log(Math.sqrt(100))     // 10
+
+console.log(Math.sqrt(2))       // 1.4142135623730951
+
+// Power
+console.log(Math.pow(3, 2))     // 9
+
+console.log(Math.E)             // 2.718
+
+// Logarithm
+// Returns the natural logarithm with base E of x, Math.log(x)
+console.log(Math.log(2))        // 0.6931471805599453
+console.log(Math.log(10))       // 2.302585092994046
+
+// Trigonometry
+Math.sin(0)
+Math.sin(60)
+
+Math.cos(0)
+Math.cos(60)
+
+=============================================================
+There are a lot of string method
+
+* subStr() => it takes two arguments, the starting index and numbers of character two
+slice.
+
+* substring() => takes two arguments, the starting index and the stopping index 
+but it doesn't include the character at the stopping index.
+
+* split() => the split method splits a string at a specified place by either comma or a space
+when you call split on a string, it changes the string into an array.
+
+* trim() => removes trailing space in the beginning or at the end of string
+
+* includes() => it takes a substring argument ad it checks if a 
+substring argument exist in the string. It doesnt check for letters, just words
+
+* replace() => takes as a parameter the old substring and add a new substring.
+
+* charAt() => takes index and it returns the value at that index.
+Input = string 
+Output = index value in the string 
+
+* charCodeAt() => takes index and it returns char code (ASCII number) of 
+the value at that index
+
+* charCodeAt() => takes index and it returns char codeof the value
+of that index.
+
+* indexOf() => takes a substring and if the substring exists in a string 
+it returns the first position of the substring.
+
+* lastIndexOf() => takes a substring and if the substring exists in a string
+it return the last positon of the substring 
+
+* startsWith() => it takes a substring as a argument and it checks if the string
+strarts with that specified substring
+
+* endsWith() => it takes a substring as an argument and it checks if the string 
+ends with that soecified substring
+
+* search() => takes a substring as argument and returns the index of the firt match
+
+* match() => match takes a substring or regex pattern as an argument
+and it returns an array if there is a match
+
+    There is a way to convert a data type into another. 
+It's parseInt() - Number() - parseFloat() - str() 

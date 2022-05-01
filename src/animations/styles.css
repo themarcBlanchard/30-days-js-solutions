@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+.animations{
+    margin: auto;
+    padding: 200px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: #000;
+    border-radius: 50%;
+}

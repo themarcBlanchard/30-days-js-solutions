@@ -1,0 +1,5 @@
+Keyframe:
+    * What is used to set an animation sequence, using keyframes.
+    Animations can be simple, one state animations, or even complex, time based sequences.
+
+    * 
